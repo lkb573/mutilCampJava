@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project name="AntWeb">
+	<property file="build.properties" />
+	
+	<target name="clear">
+		<delete dir="${dist.home}" />
+		<delete dir="${build.home}/classes" />
+	</target>
+	
+	<target name="prepare" depends="clear">
+		<mkdir dir="${dist.home}" />
+		<mkdir dir="${build.home}/classes"/>
+	</target>
+	
+	<target name="compile" depends="prepare">
+		<javac srcdir="${src.home}" destdir="${build.home}/classes">
+			<classpath refid="classpath"></classpath>
+		</javac>
+	</target>
+	
+	<target name="javadoc" depends="compile">
+		<javadoc sourcepath="${src.home}" 
+				destdir="${dist.home}/docs/api" 
+				packagenames="*" />
+	</target>
+	
+	<target name="package" depends="javadoc">
+		<copy todir="${dist.home}">
+			<fileset dir="${web.home}" />
+		</copy>
+		<copy todir="${dist.home}/WEB-INF/classes">
+			<fileset dir="${build.home}/classes" />
+		</copy>
+		<jar jarfile="${app.name}.war" basedir="${dist.home}"></jar>
+	</target>
+	
+	<target name="deploy" depends="package">
+		<copy todir="${catalina.home}/webapps">
+			<fileset file="${app.name}.war" />
+		</copy>
+	</target>
+	
+	<path id="classpath">
+		<fileset dir="${catalina.home}/lib">
+			<include name="*.jar"/>
+		</fileset>
+		
+		<fileset dir="${web.home}/WEB-INF/lib">
+			<include name="*.jar"/>
+		</fileset>
+	</path>
+	
+</project>
