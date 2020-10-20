@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="M30519" name="com.multicampus.biz.junit3.AllTests" skipped="0" tests="3" time="0.058" timestamp="2020-10-20T06:25:36">
+  <properties>
+    <property name="ant.project.invoked-targets" value="junitReport" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="sun.boot.library.path" value="C:\DEV\zulu8\jre\bin" />
+    <property name="java.vm.version" value="25.202-b05" />
+    <property name="ant.library.dir" value="C:\DEV\apache-ant-1.10.1\lib" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.1 compiled on February 2 2017" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="java.vm.vendor" value="Azul Systems, Inc." />
+    <property name="java.vendor.url" value="http://www.azulsystems.com/" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="user.script" value="" />
+    <property name="user.country" value="KR" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.os.patch.level" value="" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="user.dir" value="C:\DEV\eclipse-workspace\AntJunitProject" />
+    <property name="java.runtime.version" value="1.8.0_202-b05" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="eclipse.pdebuild.scripts" value="C:\DEV\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts" />
+    <property name="basedir" value="C:\DEV\eclipse-workspace\AntJunitProject" />
+    <property name="java.endorsed.dirs" value="C:\DEV\zulu8\jre\lib\endorsed" />
+    <property name="os.arch" value="amd64" />
+    <property name="java.io.tmpdir" value="C:\Users\student\AppData\Local\Temp\" />
+    <property name="ant.core.lib" value="C:\DEV\apache-ant-1.10.1\lib\ant.jar" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="ant.file.AntJunitProject" value="C:\DEV\eclipse-workspace\AntJunitProject\build.xml" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="user.variant" value="" />
+    <property name="ant.file.type.AntJunitProject" value="file" />
+    <property name="os.name" value="Windows 10" />
+    <property name="ant.home" value="C:\DEV\apache-ant-1.10.1" />
+    <property name="eclipse.pdebuild.templates" value="C:\DEV\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates" />
+    <property name="ant.project.name" value="AntJunitProject" />
+    <property name="sun.jnu.encoding" value="MS949" />
+    <property name="eclipse.pdebuild.home" value="C:\DEV\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\." />
+    <property name="java.library.path" value="C:\DEV\eclipse;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/DEV/zulu8/bin/../jre/bin/server;C:/DEV/zulu8/bin/../jre/bin;C:/DEV/zulu8/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NGX;C:\DEV\zulu8\bin;C:\Users\student\AppData\Local\Microsoft\WindowsApps;;C:\DEV\eclipse;;.;C:\DEV\eclipse\configuration\org.eclipse.osgi\788\0\.cp" />
+    <property name="java.class.version" value="52.0" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.version" value="10.0" />
+    <property name="ant.file" value="C:\DEV\eclipse-workspace\AntJunitProject\build.xml" />
+    <property name="user.home" value="C:\Users\student" />
+    <property name="user.timezone" value="" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="file.encoding" value="MS949" />
+    <property name="java.class.path" value="C:\DEV\apache-ant-1.10.1\lib\ant-antlr.jar;C:\DEV\apache-ant-1.10.1\lib\ant-apache-bcel.jar;C:\DEV\apache-ant-1.10.1\lib\ant-apache-bsf.jar;C:\DEV\apache-ant-1.10.1\lib\ant-apache-log4j.jar;C:\DEV\apache-ant-1.10.1\lib\ant-apache-oro.jar;C:\DEV\apache-ant-1.10.1\lib\ant-apache-regexp.jar;C:\DEV\apache-ant-1.10.1\lib\ant-apache-resolver.jar;C:\DEV\apache-ant-1.10.1\lib\ant-apache-xalan2.jar;C:\DEV\apache-ant-1.10.1\lib\ant-commons-logging.jar;C:\DEV\apache-ant-1.10.1\lib\ant-commons-net.jar;C:\DEV\apache-ant-1.10.1\lib\ant-jai.jar;C:\DEV\apache-ant-1.10.1\lib\ant-javamail.jar;C:\DEV\apache-ant-1.10.1\lib\ant-jdepend.jar;C:\DEV\apache-ant-1.10.1\lib\ant-jmf.jar;C:\DEV\apache-ant-1.10.1\lib\ant-jsch.jar;C:\DEV\apache-ant-1.10.1\lib\ant-junit.jar;C:\DEV\apache-ant-1.10.1\lib\ant-junit4.jar;C:\DEV\apache-ant-1.10.1\lib\ant-launcher.jar;C:\DEV\apache-ant-1.10.1\lib\ant-netrexx.jar;C:\DEV\apache-ant-1.10.1\lib\ant-swing.jar;C:\DEV\apache-ant-1.10.1\lib\ant-testutil.jar;C:\DEV\apache-ant-1.10.1\lib\ant-xz.jar;C:\DEV\apache-ant-1.10.1\lib\ant.jar;C:\DEV\eclipse\configuration\org.eclipse.osgi\93\0\.cp\lib\antdebug.jar;C:\DEV\eclipse\configuration\org.eclipse.osgi\93\0\.cp\lib\remote.jar;C:\DEV\eclipse\configuration\org.eclipse.osgi\94\0\.cp\lib\remoteAnt.jar;C:\DEV\zulu8\lib\tools.jar;C:\DEV\eclipse\plugins\org.eclipse.swt.win32.win32.x86_64_3.106.0.v20170608-0516.jar" />
+    <property name="user.name" value="student" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="java.home" value="C:\DEV\zulu8\jre" />
+    <property name="sun.java.command" value="org.eclipse.ant.internal.launching.remote.InternalAntRunner -Dorg.eclipse.ant.core.ANT_PROCESS_ID=1603175136422 -Declipse.connect.port=50668 -Declipse.pdebuild.home=C:\DEV\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\. -Declipse.pdebuild.scripts=C:\DEV\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\scripts -Declipse.pdebuild.templates=C:\DEV\eclipse\plugins\org.eclipse.pde.build_3.9.300.v20170515-0912\templates -Dant.home=C:\DEV\apache-ant-1.10.1 -logger org.eclipse.ant.internal.launching.remote.logger.RemoteAntBuildLogger -inputhandler org.eclipse.ant.internal.ui.antsupport.inputhandler.ProxyInputHandler -buildfile C:\DEV\eclipse-workspace\AntJunitProject\build.xml junitReport" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="user.language" value="ko" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.version" value="1.8.0_202" />
+    <property name="java.ext.dirs" value="C:\DEV\zulu8\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="sun.boot.class.path" value="C:\DEV\zulu8\jre\lib\resources.jar;C:\DEV\zulu8\jre\lib\rt.jar;C:\DEV\zulu8\jre\lib\sunrsasign.jar;C:\DEV\zulu8\jre\lib\jsse.jar;C:\DEV\zulu8\jre\lib\jce.jar;C:\DEV\zulu8\jre\lib\charsets.jar;C:\DEV\zulu8\jre\lib\jfr.jar;C:\DEV\zulu8\jre\classes" />
+    <property name="java.vendor" value="Azul Systems, Inc." />
+    <property name="file.separator" value="\" />
+    <property name="java.vendor.url.bug" value="http://www.azulsystems.com/support/" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.desktop" value="windows" />
+    <property name="sun.cpu.isalist" value="amd64" />
+  </properties>
+  <testcase classname="com.multicampus.biz.junit3.MyCalcTest" name="testMinus" time="0.001" />
+  <testcase classname="com.multicampus.biz.junit3.MyCalcTest" name="testPlus" time="0.001" />
+  <testcase classname="com.multicampus.biz.junit3.UserServiceTest" name="testGetUser" time="0.044" />
+  <system-out><![CDATA[---> setUp() 호출
+===> testMinus() 호출
+---> tearDown() 호출
+---> setUp() 호출
+===> testPlus() 호출
+---> tearDown() 호출
+===> JDBC 기반으로 getUser() 기능 처리
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
