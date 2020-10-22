@@ -7,11 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import com.multicampus.biz.common.JDBCUtil;
 
 // 2. DAO(Data Access Object) 클래스
-@Component("boardDAO")
+@Repository("boardDAO")
 public class BoardDAO {
 	// JDBC 관련 변수 선언
 	private Connection conn = null;

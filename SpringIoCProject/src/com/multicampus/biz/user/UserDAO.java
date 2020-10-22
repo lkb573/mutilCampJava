@@ -6,11 +6,12 @@ import java.sql.ResultSet;
 import java.util.List;
 
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
 import com.multicampus.biz.common.JDBCUtil;
 
 // 2. DAO(Data Access Object) 클래스
-@Component("userDAO")
+@Repository("userDAO")
 public class UserDAO  {
 	// JDBC 관련 변수 선언
 	private Connection conn = null;
